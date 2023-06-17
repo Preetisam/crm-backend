@@ -1,4 +1,4 @@
 module.exports = {
-  DB_NAME: "crmbac_db",
-  DB_URL: "mongodb://127.0.0.1:27017/crmbac_db",
+  DB_NAME: "crmtest_db",
+  DB_URL: "mongodb://127.0.0.1:27017/crmtest_db",
 };
