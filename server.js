@@ -11,7 +11,7 @@ const express = require("express");
 const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(cors());
 //Establish connection
 mongoose.connect(dbConfig.DB_URL);
 const db = mongoose.connection;
